@@ -12,20 +12,19 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1>{{ site.title | default: site.github.repository_name }}</h1>
-        <!-- 
-        <table>
-          {% for nav in site.navigation %}
-            {% if nav.url contains "://" %}
-              <tr><th><a href="{{ nav.url }}">{{ nav.title }}</a></th></tr>
-            {% else %}
-              <tr><th><a href="{{ nav.url | relative_url }}">{{ nav.title }}</a></th></tr>
-            {% endif %}
-          {% endfor %}
-        </table> -->
+        <h1>How Has Political Sentiment Changed Over the Course of the Pandemic?</h1>
       </header>
       <section>
-
+        <h2>Grouping Countries by Response</h2>
+        <p>We can imagine that countries can be grouped together based on their response to the COVID pandemic.
+          From `interventions.csv`, we can calculate how long it took for the first measures to be imposed after
+           the first case in the country, and for how long mobility in the country was reduced. Based on these two 
+           measures, we can try to find clusters of countries in order to group them.
+        </p>
+        <p>
+          We calculate the Silhouette Score for different numbers of clusters in order to find the optimal number of
+           clusters.
+        </p>
       {{ content }}
 
       </section>
