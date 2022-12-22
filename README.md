@@ -1,24 +1,4 @@
 
-We calculate the Silhouette Score for different numbers of clusters in order to find the optimal number of clusters.
-
-![Shilhouetette Score for Each Value of K](assets/img/Shilhouetette_Score_for_Each_Value_of_K.png)
-
-We can identify the following groups of countries:
-
-1. Big European economies which took a long time to react to COVID (possibly due to not wanting to harm the economy or being less able to enforce measures over a large population) and ended up having long periods of reduced mobility (France, Germany, Italy).
-
-2. Smaller highly developed European countries which reacted quickly to COVID and had shorter periods of reduced mobility (Denmark, Netherlands, Norway).
-
-3. Countries which took longer to react to COVID but had shorter periods of reduced mobility (Finland, Japan, Sweden).
-
-4. Countries with relatively short periods of reduced mobility compared to other countries (Serbia, South Korea).
-
-Spain is the only country not featured in the plot above. We take a look at its entry in `interventions.csv`.
-
-![Shilhouetette Score for Each Value of K](assets/img/redused_Mobility_VS_Response_Time.png)
-
-The response time was not swift relative to other countries. The datapoint is not plotted due to having an undefined duration of the reduced mobility period, since there is no date for the return to normal mobility levels. We can say that the reduced mobility period is also a long one, which would place Spain in group 1 - big European economies with a long response time and long period of reduced mobility.
-
 ## Obtaining Polling Data
 
 We obtain polling data from [European Opinion Polls as Open Data](https://filipvanlaenen.github.io/eopaod/) - a collection of opinion polls for European countries.
