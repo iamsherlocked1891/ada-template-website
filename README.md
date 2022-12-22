@@ -1,5 +1,3 @@
-# How Has Political Sentiment Changed Over the Course of the Pandemic?
-
 ## Grouping Countries by Response
 
 We can imagine that countries can be grouped together based on their response to the COVID pandemic.

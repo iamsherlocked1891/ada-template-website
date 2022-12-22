@@ -1,7 +1,7 @@
 theme: jekyll-theme-minimal
-title: Political
-description: A template website for ADA
-show_downloads: True
+title:  How Has Political Sentiment Changed Over the Course of the Pandemic?
+description: 
+show_downloads: False
 navigation:
   - title: Home
     url: /
