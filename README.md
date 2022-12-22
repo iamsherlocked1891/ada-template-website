@@ -1,3 +1,6 @@
+![Germany polling data](assets/img/virus.jpg)
+
+
 
 ![Germany polling data](assets/img/germany.png)
 ![Spain polling data](assets/img/spain.png)
