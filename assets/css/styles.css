@@ -106,19 +106,14 @@ img {
   display: flex;
 }
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%
-}
-
 header {
   display: flex;
   align-items: center;
-  background: linear-gradient(94deg, rgba(0,212,255,1) 0%, rgba(8,25,132,1) 36%, rgba(9,9,121,1) 50%, rgba(8,25,132,1) 62%, rgba(0,212,255,1) 100%);
+  background: #222;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 header h1{
+  text-align: center;
   margin: 15px auto;
   width: 60%;
   color: white;
@@ -184,6 +179,7 @@ header ul a strong {
 }
 
 section {
+  margin-top: 80px;
   width: 95%;
   float:right;
   padding-bottom:50px;
