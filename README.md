@@ -1,28 +1,4 @@
 
-## Obtaining Polling Data
-
-We obtain polling data from [European Opinion Polls as Open Data](https://filipvanlaenen.github.io/eopaod/) - a collection of opinion polls for European countries.
-
-The dataset, understandably, lacks data for Japan and South Korea. Data for Serbia is not present either. Nonetheless, we still have data for 9 of the 12 countries, so we continue working with these countries instead.
-
-Our final groups of countries based on response to the pandemic are:
-
-1. France, Germany, Italy, Spain
-2. Denmark, Netherlands, Norway
-3. Finland, Sweden
-
-We also have the following geographic groups:
-
-1. Northern Europe - Denmark, Finland, Norway, Sweden
-2. Western Europe - France, Germany, Netherlands
-3. Southern Europe - Italy, Spain
-
-For each country, we plot the polling data for the current 5 most represented parties in parliament (excluding parties founded in 2021 or later). Our error bars represent the standard deviation each month.
-
-In addition, we denote with `*` the main party in government at the beginning of the pandemic and when the first COVID related death occured. This represents the beginning of when the population becomes seriously affected by the virus.
-
-### Group 1
-
 ![Germany polling data](assets/img/germany.png)
 ![Spain polling data](assets/img/spain.png)
 ![France polling data](assets/img/france.png)

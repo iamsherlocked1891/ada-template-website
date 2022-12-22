@@ -55,9 +55,39 @@
            We can say that the reduced mobility period is also a long one, which would place Spain in group 1 - big European 
            economies with a long response time and long period of reduced mobility.
         </p>
-      {{ content }}
-
       </section>
+      <section>
+        <h2>Obtaining Polling Data</h2>
+        <p>We obtain polling data from <a href="https://filipvanlaenen.github.io/eopaod/"> European Opinion Polls as Open Data </a> 
+          - a collection of opinion polls for European countries.
+        </p>
+        <p>
+          The dataset, understandably, lacks data for Japan and South Korea. Data for Serbia is not present either. Nonetheless, 
+          we still have data for 9 of the 12 countries, so we continue working with these countries instead.
+        </p>
+        <p>Our final groups of countries based on response to the pandemic are:</p>
+        <ol>
+          <li>France, Germany, Italy, Spain</li>
+          <li>Denmark, Netherlands, Norway</li>
+          <li>Finland, Sweden</li>
+        </ol>
+        <p>We also have the following geographic groups:</p>
+        <ol>
+          <li>Northern Europe - Denmark, Finland, Norway, Sweden</li>
+          <li>Western Europe - France, Germany, Netherlands</li>
+          <li>Southern Europe - Italy, Spain</li>
+        </ol>
+        <p>For each country, we plot the polling data for the current 5 most represented parties in parliament 
+          (excluding parties founded in 2021 or later). Our error bars represent the standard deviation each month.
+        </p>
+        <p>
+          In addition, we denote with `*` the main party in government at the beginning of the pandemic and when 
+          the first COVID related death occured. This represents the beginning of when the population becomes 
+          seriously affected by the virus.
+        </p>
+        <h3>Group 1</h3>
+      </section>
+      {{ content }}
       <footer>
         <!-- {% if site.github.is_project_page %} -->
         <p>This project is maintained by</p>
