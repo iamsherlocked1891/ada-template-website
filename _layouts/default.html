@@ -30,15 +30,28 @@
 
       </section>
       <footer>
-        {% if site.github.is_project_page %}
+        <!-- {% if site.github.is_project_page %} -->
         <p>This project is maintained by</p>
-        <ul style="list-style: none;">
-          <li><a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></li>
-          <li><a href="https://github.com/antonhosgood"> antonhosgood</a></li>
-          <li><a href="https://github.com/tecabert"></a> tecabert </li>
-          <li><a href="https://github.com/Ravosoa"> Ravosoa</a></li>
-         </ul>
-        {% endif %}
+        <div class="link--git">
+          <div class="ling--git--item">
+            <i class="fa-brands fa-github"></i>
+            <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>
+          </div>
+          <div class="ling--git--item">
+            <i class="fa-brands fa-github"></i>
+            <a href="https://github.com/antonhosgood"> antonhosgood</a>
+          </div>
+          <div class="ling--git--item">
+            <i class="fa-brands fa-github"></i>
+            <a href="https://github.com/tecabert"> tecabert </a> 
+        </div>
+          <div class="ling--git--item">
+            <i class="fa-brands fa-github"></i>
+            <a href="https://github.com/Ravosoa"> Ravosoa</a>
+          </div>
+        </div>
+          
+        <!-- {% endif %} -->
       </footer>
     </div>
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
