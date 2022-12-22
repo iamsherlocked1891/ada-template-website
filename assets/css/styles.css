@@ -55,6 +55,8 @@ a:hover small {
 }
 
 .wrapper {
+  display: flex;
+  flex-direction: column;
   width:1080px;
   margin:0 auto;
 }
