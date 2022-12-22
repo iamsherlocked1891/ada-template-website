@@ -107,6 +107,7 @@ img {
 }
 
 header {
+  width: 100%;
   display: flex;
   align-items: center;
   background: #222;
