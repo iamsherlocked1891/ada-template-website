@@ -57,6 +57,7 @@ a:hover small {
 .wrapper {
   display: flex;
   flex-direction: column;
+  align-items: center;
   width:1080px;
   margin:0 auto;
 }
@@ -103,12 +104,13 @@ th {
 
 img {
   max-width:100%;
+  margin: auto;
+  display: flex;
 }
 
 header {
-  width:270px;
-  float:left;
-  position:fixed;
+  width:90%;
+  position: sticky;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
@@ -189,9 +191,7 @@ hr {
 }
 
 footer {
-  width:270px;
-  float:left;
-  position:fixed;
+  width: 100%;
   bottom:50px;
   -webkit-font-smoothing:subpixel-antialiased;
 }
