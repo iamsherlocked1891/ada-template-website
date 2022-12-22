@@ -116,10 +116,11 @@ header {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 header h1{
+  line-height: 20px;
   text-align: center;
   margin: 15px auto;
   width: 60%;
-  color: white;
+  color: rgb(227, 6, 19);
 }
 
 header ul {
