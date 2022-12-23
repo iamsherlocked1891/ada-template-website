@@ -113,7 +113,7 @@ footer {
   display: flex;
   background: rgb(65, 60, 58);
   padding: 10px 40px;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 footer a img {
