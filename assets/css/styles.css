@@ -19,21 +19,26 @@ header img {
 }
 
 nav {
-  width: 70%;
+  width: 80%;
 }
 nav ul {
   list-style: none;
   display: flex;
   width: 100%;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 nav ul li {
-  font-size: 20pt;
+  border-right: 3px solid rgb(65, 60, 58);
+  padding-right: 2%;
+  font-size: 16pt;
   font-weight: 500;
   text-align: center;
 }
 nav ul li a {
   color: rgb(192, 0, 0);
+}
+nav ul li:last-child {
+  border-right: none;
 }
 
 main {
@@ -49,7 +54,7 @@ main section {
 main section p {
   text-align: justify;
   margin: 10px 0;
-  font-size: 16pt;
+  font-size: 14pt;
   line-height: 1.6em;
   text-indent: 2.5em;
 }
@@ -71,7 +76,7 @@ h2 {
 
 ol {
   margin-left: 80px;
-  font-size: 16pt;
+  font-size: 14pt;
   line-height: 1.6em;
 }
 ol li {
@@ -90,12 +95,13 @@ section.group {
 
 h3 {
   margin: 20px 30px;
-  color:  rgb(65, 60, 58);
+  color: rgb(192, 0, 0);
   font-weight: 500;
   font-size: 20pt;
 }
 
 footer {
+  margin-top: 3%;
   width: 93%;
   display: flex;
   background: rgb(65, 60, 58);
@@ -497,7 +503,7 @@ footer .link--git a {
 }
 
 table {
-  margin: auto;
+  margin: 0 auto 15px;
   width: 70%;
 }
 
@@ -508,4 +514,8 @@ caption {
 
 tr.bottom-border td {
   border-bottom: 2px dashed black;
+}
+
+td {
+  margin: 5px;
 }/*# sourceMappingURL=style.css.map */
