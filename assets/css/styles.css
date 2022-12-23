@@ -41,7 +41,7 @@ nav ul li a {
 
 .red{
   font-size: 18pt;
-  color: rgb(192, 0, 0);
+  font-weight: 700;
 
 }
 nav ul li:last-child {
