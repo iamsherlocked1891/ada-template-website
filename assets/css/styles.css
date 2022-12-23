@@ -312,6 +312,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-size: 14pt;
 }
 
 header {
@@ -400,7 +401,7 @@ h3 {
 }
 
 footer {
-  width: 93%;
+  /* width: 93%; */
   display: flex;
   background: rgb(65, 60, 58);
   padding: 10px 40px;
