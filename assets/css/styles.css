@@ -446,19 +446,19 @@ footer .link--git a {
 }
 
 .slide1 {
-  background-image: url("img/germany.png");
+  background-image: url("/ada-template-website/assets/img/germany.png");
 }
 
 .slide2 {
-  background-image: url("img/france.png");
+  background-image: url("/ada-template-website/assets/img/france.png");
 }
 
 .slide3 {
-  background-image: url("img/Italy.png");
+  background-image: url("/ada-template-website/assets/img/Italy.png");
 }
 
 .slide4 {
-  background-image: url("img/spain.png");
+  background-image: url("/ada-template-website/assets/img/spain.png");
 }
 
 .slide-content, .slide-content--mob {
@@ -522,37 +522,37 @@ footer .link--git a {
 }
 
 .slide1--mob {
-  background-image: url("img/mob/mob_de.png");
+  background-image: url("/ada-template-website/assets/img/mob/mob_de.png");
 }
 
 .slide2--mob {
-  background-image: url("img/mob/mob_dk.png");
+  background-image: url("/ada-template-website/assets/img/mob/mob_dk.png");
 }
 
 .slide3--mob {
-  background-image: url("img/mob/mob_fi.png");
+  background-image: url("/ada-template-website/assets/img/mob/mob_fi.png");
 }
 
 .slide4--mob {
-  background-image: url("img/mob/mob_fr.png");
+  background-image: url("/ada-template-website/assets/img/mob/mob_fr.png");
 }
 
 .slide5--mob {
-  background-image: url("img/mob/mob_it.png");
+  background-image: url("/ada-template-website/assets/img/mob/mob_it.png");
 }
 
 .slide6--mob {
-  background-image: url("img/mob/mob_ne.png");
+  background-image: url("/ada-template-website/assets/img/mob/mob_ne.png");
 }
 
 .slide7--mob {
-  background-image: url("img/mob/mob_no.png");
+  background-image: url("/ada-template-website/assets/img/mob/mob_no.png");
 }
 
 .slide8--mob {
-  background-image: url("img/mob/mob_se.png");
+  background-image: url("/ada-template-website/assets/img/mob/mob_se.png");
 }
 
 .slide9--mob {
-  background-image: url("img/mob/mob_spain.png");
-}/*# sourceMappingURL=style.css.map */
+  background-image: url("/ada-template-website/assets/img/mob/mob_spain.png");
+}
