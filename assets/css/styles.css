@@ -19,7 +19,7 @@ header img {
 }
 
 nav {
-  margin-top: -3%;
+  margin-top: 1%;
   width: 80%;
 }
 nav ul {
@@ -37,6 +37,12 @@ nav ul li {
 }
 nav ul li a {
   color: rgb(192, 0, 0);
+}
+
+.red{
+  font-size: 18pt;
+  color: rgb(192, 0, 0);
+
 }
 nav ul li:last-child {
   border-right: none;
