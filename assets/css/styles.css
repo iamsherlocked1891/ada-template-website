@@ -49,7 +49,7 @@ main section {
 main section p {
   text-align: justify;
   margin: 10px 0;
-  font-size: 14pt;
+  font-size: 16pt;
   line-height: 1.6em;
   text-indent: 2.5em;
 }
@@ -71,7 +71,7 @@ h2 {
 
 ol {
   margin-left: 80px;
-  font-size: 14pt;
+  font-size: 16pt;
   line-height: 1.6em;
 }
 ol li {
@@ -90,7 +90,7 @@ section.group {
 
 h3 {
   margin: 20px 30px;
-  color: rgb(192, 0, 0);
+  color:  rgb(65, 60, 58);
   font-weight: 500;
   font-size: 20pt;
 }
