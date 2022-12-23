@@ -19,6 +19,7 @@ header img {
 }
 
 nav {
+  margin-top: -3%;
   width: 80%;
 }
 nav ul {
@@ -29,7 +30,7 @@ nav ul {
 }
 nav ul li {
   border-right: 3px solid rgb(65, 60, 58);
-  padding-right: 2%;
+  padding-right: 45px;
   font-size: 16pt;
   font-weight: 500;
   text-align: center;
