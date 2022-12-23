@@ -1,4 +1,4 @@
-body {
+/* body {
   background-color: #fff;
   font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   color:#595959;
@@ -112,7 +112,6 @@ header {
   width: 100%;
   display: flex;
   align-items: center;
-  /* background: #222; */
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
@@ -300,7 +299,7 @@ footer {
 
 p{
   text-align: justify;
-}
+} */
 
 
 * {
