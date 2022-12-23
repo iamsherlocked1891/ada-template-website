@@ -401,7 +401,7 @@ h3 {
 }
 
 footer {
-  /* width: 93%; */
+  width: 100%;
   display: flex;
   background: rgb(65, 60, 58);
   padding: 10px 40px;
